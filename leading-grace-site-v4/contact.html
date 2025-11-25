@@ -106,24 +106,98 @@
 
 </header>
 
-<section class="page-hero">
-  <div class="container">
-    <p class="breadcrumb"><a href="contact-support.html">Contact &amp; Support</a> / Contact</p>
-    <h1>Contact</h1>
-    <p>Contact Lorem ipsum dolor sit amet, consectetur adipiscing elit. I will add information regarding this topic here.</p>
+<section id="contact" class="content-block">
+  <h1>Contact</h1>
+  <p class="tagline">
+    Have a question, idea, or request? I’d love to hear from you.
+  </p>
+
+  <p>
+    This page is a space to connect about coaching, workshops, speaking, or resources related to
+    <em>Leading with Grace &amp; Truth</em>. Whether you’re navigating a specific leadership challenge,
+    exploring support for your team, or simply want to learn more, you’re welcome to reach out.
+  </p>
+
+  <div class="contact-layout">
+    <!-- Contact Form -->
+    <section class="contact-section">
+      <h2>Contact Form</h2>
+      <p class="section-intro">
+        Use this form to send a message or ask a question. In a future version of this site, submissions
+        will be sent directly for follow-up. For now, this form is provided as a demo layout.
+      </p>
+
+      <form class="contact-form">
+        <div class="field-group">
+          <label for="contact-name">Name</label>
+          <input type="text" id="contact-name" name="contact-name" placeholder="Your name">
+        </div>
+
+        <div class="field-group">
+          <label for="contact-email">Email</label>
+          <input type="email" id="contact-email" name="contact-email" placeholder="you@example.com">
+        </div>
+
+        <div class="field-group">
+          <label for="contact-subject">Subject</label>
+          <input type="text" id="contact-subject" name="contact-subject" placeholder="How can I help?">
+        </div>
+
+        <div class="field-group">
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" name="contact-message" rows="5"
+            placeholder="Share a bit about your question, context, or what you’re hoping for."></textarea>
+        </div>
+
+        <p class="form-note">
+          This is a demonstration form only. In a live site, messages would be routed for follow-up.
+        </p>
+
+        <button type="submit" class="button-primary">Send Message (Demo)</button>
+      </form>
+    </section>
+
+    <!-- Newsletter Sign-up -->
+    <section class="contact-section newsletter-section">
+      <h2>Newsletter Sign-up</h2>
+      <p class="section-intro">
+        If you’d like ongoing leadership reflections, practical tools, and updates on new resources,
+        you can join the <em>Grace &amp; Truth</em> newsletter list. Messages are occasional, focused,
+        and designed to be useful—not noise.
+      </p>
+
+      <form class="newsletter-form">
+        <div class="field-group">
+          <label for="newsletter-email">Email</label>
+          <input type="email" id="newsletter-email" name="newsletter-email" placeholder="you@example.com">
+        </div>
+
+        <div class="field-group field-inline">
+          <input type="checkbox" id="newsletter-consent" name="newsletter-consent">
+          <label for="newsletter-consent" class="inline-label">
+            I agree to receive emails about leadership resources and updates.
+          </label>
+        </div>
+
+        <p class="form-note">
+          You can unsubscribe at any time. In a live site, this form would connect to an email list service.
+        </p>
+
+        <button type="submit" class="button-secondary">Join the Newsletter (Demo)</button>
+      </form>
+
+      <div class="newsletter-highlights">
+        <h3>What you can expect</h3>
+        <ul>
+          <li>Short reflections on leading with grace and truth.</li>
+          <li>Practical tools and questions for team conversations.</li>
+          <li>Updates on new guides, videos, or workshops.</li>
+        </ul>
+      </div>
+    </section>
   </div>
 </section>
 
-<main id="content" class="page-main">
-  <div class="container">
-    <section>
-      <h2>Contact Form</h2>
-      <p>I will add a working contact form here in the future. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </section>
-    <section id="newsletter">
-      <h2>Newsletter Sign-up</h2>
-      <p>I will add newsletter details and signup information here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </section>
 
   </div>
 </main>

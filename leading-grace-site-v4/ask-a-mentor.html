@@ -106,20 +106,199 @@
 
 </header>
 
-<section class="page-hero">
-  <div class="container">
-    <p class="breadcrumb"><a href="community-forum.html">Community Forum</a> / Ask a Mentor</p>
-    <h1>Ask a Mentor</h1>
-    <p>Ask a Mentor Lorem ipsum dolor sit amet, consectetur adipiscing elit. I will add information regarding this topic here.</p>
-  </div>
+<section id="ask-a-mentor" class="content-block">
+  <h1>Ask a Mentor</h1>
+  <p class="tagline">
+    A space to bring real questions, explore options, and grow as a leader—one honest conversation at a time.
+  </p>
+
+  <p>
+    The <strong>Ask a Mentor</strong> space is designed for leaders and emerging leaders who want a sounding board.
+    It’s a place to bring real situations, “I’m not sure what to do here” moments, and questions about leading with
+    both grace and truth. You don’t have to have it all figured out—you just have to be willing to learn.
+  </p>
+
+  <h2>Overview</h2>
+  <p>
+    Use this page to submit questions about communication, team dynamics, feedback, difficult conversations, culture,
+    or your own leadership growth. Mentors will respond with practical, values-centered guidance that you can apply in
+    everyday situations.
+  </p>
+  <p>
+    This space is meant to be:
+  </p>
+  <ul>
+    <li><strong>Supportive</strong> &mdash; focused on encouragement, growth, and learning.</li>
+    <li><strong>Practical</strong> &mdash; offering real-world options, not just theory.</li>
+    <li><strong>Respectful</strong> &mdash; protecting the dignity of you and those you lead.</li>
+    <li><strong>Confidential in spirit</strong> &mdash; no names, no identifying details, just the heart of the situation.</li>
+  </ul>
+  <p>
+    When you submit a question, avoid using real names or confidential information. Share enough context for mentors
+    to understand the situation, and we’ll help you think through next steps.
+  </p>
+
+  <!-- Submit a Question Form (front-end only) -->
+  <section class="mentor-form-section">
+    <h2>Submit a Question</h2>
+    <p class="form-intro">
+      Use this form to share a situation or question you’d like mentor input on. Questions may be edited lightly for
+      clarity and shared anonymously in the forum below.
+    </p>
+
+    <form class="mentor-form">
+      <div class="field-group">
+        <label for="mentor-name">Name (optional)</label>
+        <input type="text" id="mentor-name" name="mentor-name" placeholder="You may remain anonymous">
+      </div>
+
+      <div class="field-group">
+        <label for="mentor-role">Your role</label>
+        <select id="mentor-role" name="mentor-role">
+          <option value="">Select a role</option>
+          <option value="new-leader">New leader / supervisor</option>
+          <option value="experienced-leader">Experienced leader</option>
+          <option value="individual-contributor">Individual contributor</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="field-group">
+        <label for="mentor-topic">Topic</label>
+        <select id="mentor-topic" name="mentor-topic">
+          <option value="">Select a topic</option>
+          <option value="feedback">Giving/receiving feedback</option>
+          <option value="difficult-conversation">Difficult conversations</option>
+          <option value="team-culture">Team culture &amp; morale</option>
+          <option value="communication">Communication &amp; trust</option>
+          <option value="growth">Personal growth &amp; confidence</option>
+        </select>
+      </div>
+
+      <div class="field-group">
+        <label for="mentor-question">Your question or situation</label>
+        <textarea id="mentor-question" name="mentor-question" rows="5"
+          placeholder="Briefly describe the situation, what you’ve tried (if anything), and what you’re hoping for."></textarea>
+      </div>
+
+      <p class="form-note">
+        Please remove names and sensitive details. This form is for learning and reflection, not for reporting
+        incidents or emergencies.
+      </p>
+
+      <button type="submit" class="button-primary">Submit Question (Demo Only)</button>
+      <p class="form-disclaimer">
+        This is a demonstration form. In a live site, submissions would be reviewed by a mentor before being posted.
+      </p>
+    </form>
+  </section>
+
+  <!-- Forum-style list of questions -->
+  <section class="mentor-forum-section">
+    <h2>Recent Questions &amp; Mentor Responses</h2>
+    <p class="forum-intro">
+      Below are sample questions and responses to show how this space can be used. In a live forum, new questions would
+      appear here once a mentor has replied.
+    </p>
+
+    <div class="question-list">
+
+      <!-- Question 1 -->
+      <article class="question-card">
+        <header class="question-header">
+          <h3>How do I address a pattern of lateness without damaging trust?</h3>
+          <div class="question-meta">
+            <span class="meta-item">Topic: <span class="tag">Accountability</span></span>
+            <span class="meta-item">Role: New Leader</span>
+            <span class="status-badge answered">Answered</span>
+          </div>
+        </header>
+        <div class="question-body">
+          <p class="question-text">
+            I have a team member who regularly shows up late to meetings and occasionally to their shift. They’re
+            strong in their role and well-liked by the team, but this is starting to affect others. I don’t want to
+            overreact, but I also don’t want to ignore it. How do I address this in a way that’s firm but still
+            respectful?
+          </p>
+          <div class="mentor-response">
+            <h4>Mentor Response</h4>
+            <p>
+              Start with a private, calm conversation that names the pattern, not just a single incident. Lead with
+              grace: acknowledge their strengths and contributions first. Then share what you’re noticing:
+              “I’ve noticed a pattern of arriving late to meetings, and it’s starting to impact the team.”
+            </p>
+            <p>
+              Ask an open question: “Is there something getting in the way of being on time?” Listen fully before
+              responding. Then bring in truth by clarifying expectations and impact. Work together on one or two
+              specific next steps, and schedule a follow-up. Grace opens the door; truth keeps the standard clear.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Question 2 -->
+      <article class="question-card">
+        <header class="question-header">
+          <h3>How can I give feedback to my own manager?</h3>
+          <div class="question-meta">
+            <span class="meta-item">Topic: <span class="tag">Upward Feedback</span></span>
+            <span class="meta-item">Role: Individual Contributor</span>
+            <span class="status-badge answered">Answered</span>
+          </div>
+        </header>
+        <div class="question-body">
+          <p class="question-text">
+            My manager often cancels our 1:1s at the last minute. I know they’re busy, but it leaves me unsure how I’m
+            doing and what to prioritize. I’d like to share how this is affecting me without sounding ungrateful or
+            demanding. Any suggestions?
+          </p>
+          <div class="mentor-response">
+            <h4>Mentor Response</h4>
+            <p>
+              When giving feedback upward, focus on impact and partnership. You might say, “I know you have a lot on
+              your plate, and I appreciate the time you invest in our team. When our 1:1s get moved or canceled, I
+              sometimes feel unclear about priorities and next steps. Could we find a way to protect even a shorter,
+              consistent check-in?”
+            </p>
+            <p>
+              This approach affirms their reality, names your experience, and offers a solution-oriented request. Grace
+              shows up in your tone and assumptions; truth shows up in your clarity and courage.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Question 3 -->
+      <article class="question-card">
+        <header class="question-header">
+          <h3>What do I do when I feel like I’m not ready to lead?</h3>
+          <div class="question-meta">
+            <span class="meta-item">Topic: <span class="tag">Confidence</span></span>
+            <span class="meta-item">Role: New Leader</span>
+            <span class="status-badge new">New</span>
+          </div>
+        </header>
+        <div class="question-body">
+          <p class="question-text">
+            I was recently promoted into a leadership role, and some days I feel like I’m faking it. I’m worried people
+            will notice I don’t have everything figured out. How do I build confidence without pretending to be
+            someone I’m not?
+          </p>
+          <div class="mentor-response pending">
+            <h4>Mentor Response</h4>
+            <p>
+              A mentor response is on the way. In the meantime, remember: feeling stretched is normal in new roles.
+              Confidence often grows after we take action, not before.
+            </p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
 </section>
 
-<main id="content" class="page-main">
-  <div class="container">
-    <section>
-      <h2>Overview</h2>
-      <p>I will add information regarding how to use this space and expectations for participation here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </section>
+
 
   </div>
 </main>

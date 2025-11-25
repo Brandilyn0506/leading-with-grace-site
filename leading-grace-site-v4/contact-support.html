@@ -106,24 +106,177 @@
 
 </header>
 
-<section class="page-hero">
-  <div class="container">
-    <p class="breadcrumb">Contact &amp; Support</p>
-    <h1>Contact &amp; Support</h1>
-    <p>Contact &amp; Support Lorem ipsum dolor sit amet, consectetur adipiscing elit. I will add information regarding this topic here.</p>
+<section id="contact-support" class="content-block">
+  <h1>Contact &amp; Support</h1>
+  <p class="tagline">
+    Questions, ideas, or tech hiccups—this is where to start.
+  </p>
+
+  <p>
+    The <strong>Contact &amp; Support</strong> page is here to help you get what you need, whether that’s clarity on
+    a concept, support with resources, or a way to share feedback. If you’re using <em>Leading with Grace &amp; Truth</em>
+    materials in your own leadership, classroom, or organization, this is your place to ask for guidance and stay
+    connected.
+  </p>
+
+  <h2>Overview</h2>
+  <p>
+    You can use this page to:
+  </p>
+  <ul>
+    <li>Ask questions about using Grace &amp; Truth tools, guides, or videos.</li>
+    <li>Request support for workshops, team sessions, or leadership development programs.</li>
+    <li>Share feedback on what’s working well and what you’d like to see more of.</li>
+    <li>Sign up for updates, new resources, and leadership reflections.</li>
+  </ul>
+  <p>
+    If your question doesn’t fit neatly into a category, that’s okay—reach out anyway. The goal is to support you as
+    you lead with both grace and truth in real, everyday situations.
+  </p>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <h2>FAQ</h2>
+    <p class="section-intro">
+      Below are some common questions about using this site, the resources, and how to get support.
+    </p>
+
+    <div class="faq-list">
+
+      <article class="faq-item">
+        <h3>Who is this site for?</h3>
+        <p>
+          This site is for leaders and emerging leaders who want practical, values-centered tools. It’s designed to
+          support people leading teams, projects, classrooms, or communities—anyone responsible for influencing others.
+        </p>
+      </article>
+
+      <article class="faq-item">
+        <h3>Can I use these resources with my own team?</h3>
+        <p>
+          Yes. You are encouraged to use the concepts, questions, and frameworks with your team or small group. If
+          you’d like help tailoring content to your context or building a session around it, you can submit a request
+          through the contact form.
+        </p>
+      </article>
+
+      <article class="faq-item">
+        <h3>What if I have a specific leadership situation I’d like help with?</h3>
+        <p>
+          You can describe your situation using the contact form below or through the Ask a Mentor space (if available
+          on this site). Please remove names and identifying details and focus on the behavior, context, and outcome
+          you’re hoping for.
+        </p>
+      </article>
+
+      <article class="faq-item">
+        <h3>Do you offer coaching or workshops?</h3>
+        <p>
+          Coaching and workshops may be available depending on scheduling and fit. Use the contact form to share what
+          you’re looking for, and someone will follow up with options and next steps.
+        </p>
+      </article>
+
+      <article class="faq-item">
+        <h3>How do I report a technical issue with the site?</h3>
+        <p>
+          If a page, video, or resource isn’t working as expected, include the page name, what you were trying to do,
+          and any error message you saw in the contact form. This helps troubleshoot quickly and get things working
+          smoothly again.
+        </p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Contact + Newsletter layout -->
+  <div class="contact-layout">
+    <!-- Contact Form -->
+    <section class="contact-section">
+      <h2>Contact Form</h2>
+      <p class="section-intro">
+        Use this form to share a question, request, or piece of feedback. In a live version of this site, submissions
+        would be routed for follow-up. For now, this form represents the layout and fields that could be used.
+      </p>
+
+      <form class="contact-form">
+        <div class="field-group">
+          <label for="cs-name">Name</label>
+          <input type="text" id="cs-name" name="cs-name" placeholder="Your name">
+        </div>
+
+        <div class="field-group">
+          <label for="cs-email">Email</label>
+          <input type="email" id="cs-email" name="cs-email" placeholder="you@example.com">
+        </div>
+
+        <div class="field-group">
+          <label for="cs-type">Reason for contacting</label>
+          <select id="cs-type" name="cs-type">
+            <option value="">Select an option</option>
+            <option value="question">Question about a resource</option>
+            <option value="support">Need support using the site</option>
+            <option value="coaching">Coaching or workshop inquiry</option>
+            <option value="feedback">Feedback or suggestion</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label for="cs-message">Message</label>
+          <textarea id="cs-message" name="cs-message" rows="5"
+            placeholder="Share a bit of context and what you’re hoping for."></textarea>
+        </div>
+
+        <p class="form-note">
+          Please avoid including sensitive or confidential details. This space is intended for learning, connection,
+          and general support.
+        </p>
+
+        <button type="submit" class="button-primary">Send Message (Demo)</button>
+      </form>
+    </section>
+
+    <!-- Newsletter Sign-up -->
+    <section class="contact-section newsletter-section">
+      <h2>Newsletter Sign-up</h2>
+      <p class="section-intro">
+        If you’d like occasional leadership reflections, prompts, and updates about new resources, you can join the
+        <em>Grace &amp; Truth</em> email list. The goal is simple: helpful, practical content—not inbox clutter.
+      </p>
+
+      <form class="newsletter-form">
+        <div class="field-group">
+          <label for="cs-news-email">Email</label>
+          <input type="email" id="cs-news-email" name="cs-news-email" placeholder="you@example.com">
+        </div>
+
+        <div class="field-group field-inline">
+          <input type="checkbox" id="cs-news-consent" name="cs-news-consent">
+          <label for="cs-news-consent" class="inline-label">
+            I agree to receive emails about leadership resources and updates.
+          </label>
+        </div>
+
+        <p class="form-note">
+          You can unsubscribe at any time. In a live site, this form would connect to an email service provider.
+        </p>
+
+        <button type="submit" class="button-secondary">Join the Newsletter (Demo)</button>
+      </form>
+
+      <div class="newsletter-highlights">
+        <h3>What you can expect</h3>
+        <ul>
+          <li>Short reflections on leading with grace and truth.</li>
+          <li>Tools and prompts you can use with your team.</li>
+          <li>Occasional updates on new guides, videos, or sessions.</li>
+        </ul>
+      </div>
+    </section>
   </div>
 </section>
 
-<main id="content" class="page-main">
-  <div class="container">
-    <section>
-      <h2>Overview</h2>
-      <p>I will add information regarding ways to get help and share feedback here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <ul>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact.html">Contact Form &amp; Newsletter</a></li>
-      </ul>
-    </section>
 
   </div>
 </main>
